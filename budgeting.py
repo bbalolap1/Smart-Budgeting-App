@@ -8,7 +8,7 @@ st.write("Track your income, expenses, and savings goals with ease.")
 
 # Initialize session state
 if 'data' not in st.session_state:
-    st.session_state.data = pd.DataFrame(columns=["Date", "Category", "Description", "Planned Amount", "Actual Amount"])
+    st.session_state.data = pd.DataFrame(columns=["Date", "Category", "Description", "Planned Amount", "Actual Amount", "Current Balance"])
 
 # Section: Add a new transaction
 st.header("➕ Add New Entry")
